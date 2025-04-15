@@ -12,3 +12,4 @@ time
 random
 plotly.express
 plotly.graph_objects
+subprocess
