@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+seaborn
+altair
+streamlit_option_menu
+matplotlib.pyplot 
+io
+base64
+PIL
+time
+random
+plotly.express
+plotly.graph_objects
