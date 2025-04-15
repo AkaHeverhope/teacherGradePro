@@ -4,7 +4,5 @@ numpy
 seaborn
 altair
 streamlit_option_menu
-PIL
 plotly.express
-plotly.graph_objects
 subprocess
