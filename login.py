@@ -123,11 +123,11 @@ def main():
         # If the password is correct, show the main application
         st.success("You are now logged in to the Teacher Dashboard!")
         st.write(f"Welcome, {st.session_state['credentials']['usernames'][st.session_state['username']]['name']}")
-        
+        st.write(f"https://teachergradepro-re8ztugrvjbegx8atexwmu.streamlit.app/")
         # Here you would integrate with your existing dashboard code
         
     subprocess.Popen(["streamlit", "run", "website.py"])
-    st.write(f"https://teachergradepro-re8ztugrvjbegx8atexwmu.streamlit.app/")  
+   
         # Add logout button
     if st.button("Log Out"):
             st.session_state["password_correct"] = False
