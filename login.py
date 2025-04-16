@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import hashlib
 import pickle
-import subprocess
+from streamlit_extras.switch_page import switch_page
 from pathlib import Path
 
 def check_password():
@@ -126,7 +126,7 @@ def main():
         
         # Here you would integrate with your existing dashboard code
         
-        subprocess.run(["streamlit", "run", "website.py"])
+       switch_page("website")
         
         # Add logout button
         if st.button("Log Out"):
