@@ -126,7 +126,7 @@ def main():
         
         # Here you would integrate with your existing dashboard code
         
-   subprocess.Popen(["streamlit", "run", "website.py"])
+    subprocess.Popen(["streamlit", "run", "website.py"])
         
         # Add logout button
     if st.button("Log Out"):
