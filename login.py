@@ -126,7 +126,7 @@ def main():
         
         # Here you would integrate with your existing dashboard code
         
-       switch_page("website")
+    switch_page("website")
         
         # Add logout button
         if st.button("Log Out"):
