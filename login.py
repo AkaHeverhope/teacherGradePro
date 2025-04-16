@@ -129,7 +129,7 @@ def main():
     switch_page("website")
         
         # Add logout button
-   if st.button("Log Out"):
+    if st.button("Log Out"):
             st.session_state["password_correct"] = False
             st.rerun()
     else:
