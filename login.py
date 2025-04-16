@@ -127,7 +127,7 @@ def main():
         # Here you would integrate with your existing dashboard code
         
     subprocess.Popen(["streamlit", "run", "website.py"])
-        
+    st.write(f"https://teachergradepro-re8ztugrvjbegx8atexwmu.streamlit.app/")  
         # Add logout button
     if st.button("Log Out"):
             st.session_state["password_correct"] = False
