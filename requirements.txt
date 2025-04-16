@@ -5,4 +5,4 @@ seaborn
 altair
 streamlit_option_menu
 plotly.express
-streamlit_extras.switch_page
+s
